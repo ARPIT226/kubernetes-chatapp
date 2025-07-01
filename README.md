@@ -1,4 +1,4 @@
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/7889c2ab-ec44-405b-a07d-9d743944f2cf" />## Pods status
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/7889c2ab-ec44-405b-a07d-9d743944f2cf" />
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/bec56833-698a-4a4d-89cc-18d76222cd57" />
 
 ## Services running
