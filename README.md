@@ -1,3 +1,6 @@
+## Creating pods and services
+<img width="354" alt="image" src="https://github.com/user-attachments/assets/a9b72e0a-a419-419d-91fe-710da71c5c4f" />
+
 ## Pods status
 <img width="345" alt="image" src="https://github.com/user-attachments/assets/274770fb-6120-4cc3-9231-56740222460b" />
 
