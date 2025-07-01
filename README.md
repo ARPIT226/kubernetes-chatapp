@@ -1,7 +1,8 @@
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/7889c2ab-ec44-405b-a07d-9d743944f2cf" />
+## Pods status
+<img width="345" alt="image" src="https://github.com/user-attachments/assets/274770fb-6120-4cc3-9231-56740222460b" />
 
 ## Services running
-<img width="704" alt="image" src="https://github.com/user-attachments/assets/5ec007db-0bd6-4bd0-a89c-2da5b5a956c3" />
+<img width="710" alt="image" src="https://github.com/user-attachments/assets/502081f4-9325-4016-ba83-84a17e5d379d" />
 
 ## Accessing application using DNS
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/3cc813b0-2571-4ad0-b58c-1722258911fd" />
