@@ -22,3 +22,11 @@ spec:
                 name: chatapp-secret
           ports:
             - containerPort: 8000
+# Health checks
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 8000
+            initialDelaySeconds: 10
+            periodSeconds: 5
+            failureThreshold: 3
