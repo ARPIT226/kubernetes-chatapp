@@ -40,13 +40,13 @@ Set the IP and a custom dns in the /etc/hosts which allows us to access the appl
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/837ceeff-24c5-48bb-9d23-e2a143e655f1" />
 
-## ALB-ingress-controller implementation
-<img width="620" alt="image" src="https://github.com/user-attachments/assets/1e243d88-4fbe-4e43-a933-cb317a87db0f" />
-
-
 ## Accessing application using the domain set
 <img width="620" alt="image" src="https://github.com/user-attachments/assets/973c37d6-1933-4cbc-85b0-2728305e4457" />
 
-## A
+## ALB-ingress-controller implementation
+<img width="620" alt="image" src="https://github.com/user-attachments/assets/1e243d88-4fbe-4e43-a933-cb317a87db0f" />
+
+## Accessing application using ALB-ingress-controller DNS
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/ba4a5a39-41c6-44ba-8c9b-dc8d4dbd0416" />
 
 
