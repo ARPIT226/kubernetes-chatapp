@@ -40,7 +40,7 @@ Set the IP and a custom dns in the /etc/hosts which allows us to access the appl
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/837ceeff-24c5-48bb-9d23-e2a143e655f1" />
 
-## Accessing appliation using the domain set
+## Accessing application using the domain set
 <img width="620" alt="image" src="https://github.com/user-attachments/assets/973c37d6-1933-4cbc-85b0-2728305e4457" />
 
 
