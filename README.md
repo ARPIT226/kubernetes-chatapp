@@ -24,7 +24,7 @@ To test Kubernetes liveness probe behavior, I intentionally misconfigured the NG
 ## Pod status watch after correcting the configuration
 <img width="322" alt="image" src="https://github.com/user-attachments/assets/deeda7c4-58d4-42b1-8a83-b8d2f4128692" />
 
-## for ingress controller, change the nginx svc type to clusterIP so that only ingress controller can manage and route traffic to the nginx and nginx ip is not exposed globally. (more secure)
+## for ingress controller, changed the nginx svc type to clusterIP so that only ingress controller can manage and route traffic to the nginx and nginx ip is not exposed globally. (more secure)
 <img width="395" alt="image" src="https://github.com/user-attachments/assets/56f267a0-646f-4204-b20f-15945c7af9f5" />
 
 ## nginx-ingress controller
