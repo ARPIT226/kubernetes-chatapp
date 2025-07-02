@@ -29,3 +29,10 @@ To test Kubernetes liveness probe behavior, I intentionally misconfigured the NG
 
 ## nginx-ingress controller
 <img width="917" alt="image" src="https://github.com/user-attachments/assets/8bf624b8-97d4-41e9-bd6d-8258750cdd18" />
+
+## Application is accessible from the nginx-ingress-controller's external ip (<externalIP>/home)
+All the routes having prefix /home will be redirected to the home page as set in the configuration. (/home/abc, /home/apple, etc)
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/fc96a1ae-1b2b-4201-9777-a36eda129e0a" />
+
+
