@@ -18,6 +18,7 @@
 
 ## Health check test
 To test Kubernetes liveness probe behavior, I intentionally misconfigured the NGINX pod (e.g., invalid config or broken /health endpoint). As a result, the container repeatedly failed the liveness probe and was restarted several times. Eventually, Kubernetes marked the pod as CrashLoopBackOff, indicating that it’s stuck in a failure loop and cannot recover without manual intervention.
+
 <img width="361" alt="image" src="https://github.com/user-attachments/assets/fd933c7f-b3cb-4fd5-ade2-46635031326a" />
 
 ## Pod status watch after correcting the configuration
