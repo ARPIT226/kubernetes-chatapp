@@ -1,24 +1,34 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: django
+  name: mysql
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: django
+      app: mysql
   template:
     metadata:
       labels:
-        app: django
+        app: mysql
     spec:
       containers:
-        - name: django
-          image: 262194309205.dkr.ecr.eu-west-2.amazonaws.com/chatapp-django:latest
+        - name: mysql
+          image: 262194309205.dkr.ecr.eu-west-2.amazonaws.com/chatapp-mysql:latest
           envFrom:
             - configMapRef:
                 name: chatapp-config
             - secretRef:
                 name: chatapp-secret
           ports:
-            - containerPort: 8000
+            - containerPort: 3306
+
+# Health Checks
+          livenessProbe:
+            tcpSocket:
+              port: 3306
+            initialDelaySeconds: 5
+            periodSeconds: 5
+            failureThreshold: 3
+            successThreshold: 2
+            timeoutSeconds: 2
