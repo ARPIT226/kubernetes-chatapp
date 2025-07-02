@@ -24,11 +24,11 @@ To test Kubernetes liveness probe behavior, I intentionally misconfigured the NG
 ## Pod status watch after correcting the configuration
 <img width="322" alt="image" src="https://github.com/user-attachments/assets/deeda7c4-58d4-42b1-8a83-b8d2f4128692" />
 
-## for ingress controller, changed the nginx svc type to clusterIP so that only ingress controller can manage and route traffic to the nginx and nginx ip is not exposed globally. (more secure)
-<img width="395" alt="image" src="https://github.com/user-attachments/assets/56f267a0-646f-4204-b20f-15945c7af9f5" />
-
 ## nginx-ingress controller
 <img width="917" alt="image" src="https://github.com/user-attachments/assets/8bf624b8-97d4-41e9-bd6d-8258750cdd18" />
+
+## For ingress controller, changed the nginx svc type to clusterIP so that only ingress controller can manage and route traffic to the nginx and nginx ip is not exposed globally. (more secure)
+<img width="395" alt="image" src="https://github.com/user-attachments/assets/56f267a0-646f-4204-b20f-15945c7af9f5" />
 
 ## Application is accessible from the nginx-ingress-controller's external ip (<externalIP>/home)
 All the routes having prefix "/home" will be redirected to the home page as set in the configuration. (/home/abc, /home/apple, etc)
