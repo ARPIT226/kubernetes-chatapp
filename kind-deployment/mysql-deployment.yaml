@@ -30,5 +30,9 @@ spec:
             initialDelaySeconds: 5
             periodSeconds: 5
             failureThreshold: 3
-            successThreshold: 2
+            successThreshold: 1
             timeoutSeconds: 2
+# in readiness  successThreshold can 2 or more than two but in this it should be exactly 1
+# successThreshold > 1 makes sense for readiness/startup (ensure app is stable before accepting traffic)
+#But for liveness, once a probe passes, the app is considered healthy — no need to double-confirm
+
