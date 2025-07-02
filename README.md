@@ -35,7 +35,7 @@ All the routes having prefix "/home" will be redirected to the home page as set 
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/fc96a1ae-1b2b-4201-9777-a36eda129e0a" />
 
-## Access locally using custom doamin (confined access)
+## Access locally using custom domain (confined access)
 Set the IP and a custom dns in the /etc/hosts which allows us to access the application using the domain name but restricted to the instance only
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/837ceeff-24c5-48bb-9d23-e2a143e655f1" />
