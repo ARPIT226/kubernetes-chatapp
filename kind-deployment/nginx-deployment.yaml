@@ -17,7 +17,7 @@ spec:
           image: 262194309205.dkr.ecr.eu-west-2.amazonaws.com/chatapp-nginx:latest
           ports:
             - containerPort: 80
-# Health checks
+# Health checks 
           livenessProbe:
             httpGet:
               path: /
