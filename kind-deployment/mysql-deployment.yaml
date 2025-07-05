@@ -14,25 +14,46 @@ spec:
     spec:
       containers:
         - name: mysql
-          image: 262194309205.dkr.ecr.eu-west-2.amazonaws.com/chatapp-mysql:latest
+          image: 262194309205.dkr.ecr.eu-west-2.amazonaws.com/chatapp-mysql
+          imagePullPolicy: Always
+
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "256Mi"
+            limits:
+              cpu: "500m"
+              memory: "1Gi"
+
           envFrom:
             - configMapRef:
                 name: chatapp-config
             - secretRef:
                 name: chatapp-secret
+
           ports:
             - containerPort: 3306
+          volumeMounts:
+            - name: mysql-data
+              mountPath: /var/lib/mysql
 
-# Health Checks
-          livenessProbe:
+          readinessProbe:
             tcpSocket:
               port: 3306
             initialDelaySeconds: 5
             periodSeconds: 5
             failureThreshold: 3
-            successThreshold: 1
             timeoutSeconds: 2
-# in readiness  successThreshold can 2 or more than two but in this it should be exactly 1
-# successThreshold > 1 makes sense for readiness/startup (ensure app is stable before accepting traffic)
-#But for liveness, once a probe passes, the app is considered healthy — no need to double-confirm
 
+          livenessProbe:
+            tcpSocket:
+              port: 3306
+            initialDelaySeconds: 10
+            periodSeconds: 5
+            failureThreshold: 3
+            timeoutSeconds: 2
+
+      volumes:
+        - name: mysql-data
+          persistentVolumeClaim:
+            claimName: mysql-pvc
