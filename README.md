@@ -71,6 +71,10 @@ Set the IP and a custom dns in the /etc/hosts which allows us to access the appl
 ## And automically scales down as the load decreases
 <img width="331" alt="image" src="https://github.com/user-attachments/assets/fa82f19b-e43f-4b7d-9b52-9c5aa8a601b6" />
 
+## VPA description before inforcing load
+<img width="293" alt="image" src="https://github.com/user-attachments/assets/34f72b2d-0801-4936-bf11-f3da7a51dba8" />
 
+## After giving load, the CPU usage increased hence VPA responded with a higher CPU recommendation (25m → 49m).
+<img width="302" alt="image" src="https://github.com/user-attachments/assets/d57a1a7e-541c-46d7-ba0c-26ede5693385" />
 
 
