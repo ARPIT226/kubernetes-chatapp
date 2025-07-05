@@ -60,8 +60,9 @@ Set the IP and a custom dns in the /etc/hosts which allows us to access the appl
 ``` while true; do wget -q -O- http://nginx; done ``` 
 ``` while true; do wget -q -O- http://django:8000/; done ```
 
-## Current cpu limit exceeds (2% -> 126%)
-<img width="471" alt="image" src="https://github.com/user-attachments/assets/6a35527f-73f3-4a59-8e2e-086ddb0aa681" />
+## Current cpu limit exceeds (2% -> 126%) on both django and nginx pods
+<img width="471" alt="image" src="https://github.com/user-attachments/assets/6a35527f-73f3-4a59-8e2e-086ddb0aa681" /> <img width="434" alt="image" src="https://github.com/user-attachments/assets/e939f7c4-8083-4974-970d-c9922bba6fb9" />
+
 
 ## Automatically others django-pods got added up to handle the huge incoming traffic
 <img width="309" alt="image" src="https://github.com/user-attachments/assets/42206156-6365-492f-8184-74a4dcbf3413" />
