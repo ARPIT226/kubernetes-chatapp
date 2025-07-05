@@ -50,6 +50,8 @@ Set the IP and a custom dns in the /etc/hosts which allows us to access the appl
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/ba4a5a39-41c6-44ba-8c9b-dc8d4dbd0416" />
 
 ## Auto Scaling -------------------------
+(install metric server if not present and describe resource capacity and limit of each type of pod)
+
 ## Horizontal Pod Autoscalar in the cluster
 <img width="431" alt="image" src="https://github.com/user-attachments/assets/716c277b-e0e5-42db-87fb-7c4eef78c3aa" />
 
