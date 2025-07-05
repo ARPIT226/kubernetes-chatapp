@@ -56,7 +56,7 @@ Set the IP and a custom dns in the /etc/hosts which allows us to access the appl
 ## Current pods status
 <img width="327" alt="image" src="https://github.com/user-attachments/assets/ecf0479b-b1b1-4636-b096-315ce67a1c7f" />
 
-##Increased the load on both the pods using an infintite loop for testing using below cmds
+## Increased the load on both the pods using an infintite loop for testing using below cmds
 ``` while true; do wget -q -O- http://nginx; done ``` 
 ``` while true; do wget -q -O- http://django:8000/; done ```
 
