@@ -53,5 +53,21 @@ Set the IP and a custom dns in the /etc/hosts which allows us to access the appl
 ## Horizontal Pod Autoscalar in the cluster
 <img width="431" alt="image" src="https://github.com/user-attachments/assets/716c277b-e0e5-42db-87fb-7c4eef78c3aa" />
 
-``` while true; do wget -q -O- http://nginx; done ```
+## Current pods status
+<img width="327" alt="image" src="https://github.com/user-attachments/assets/ecf0479b-b1b1-4636-b096-315ce67a1c7f" />
+
+##Increased the load on both the pods using an infintite loop for testing using below cmds
+``` while true; do wget -q -O- http://nginx; done ``` 
 ``` while true; do wget -q -O- http://django:8000/; done ```
+
+## Current cpu limit exceeds (2% -> 126%)
+<img width="471" alt="image" src="https://github.com/user-attachments/assets/6a35527f-73f3-4a59-8e2e-086ddb0aa681" />
+
+## Automatically others django-pods got added up to handle the huge incoming traffic
+<img width="309" alt="image" src="https://github.com/user-attachments/assets/42206156-6365-492f-8184-74a4dcbf3413" />
+
+## And automically scales down as the load decreases
+<img width="328" alt="image" src="https://github.com/user-attachments/assets/0852bb0f-22cf-42a7-bf63-2ce05ff9144e" />
+
+
+
