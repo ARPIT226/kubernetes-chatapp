@@ -63,12 +63,12 @@ Set the IP and a custom dns in the /etc/hosts which allows us to access the appl
 ## Current cpu limit exceeds (2% -> 126%) on both django and nginx pods
 <img width="471" alt="image" src="https://github.com/user-attachments/assets/6a35527f-73f3-4a59-8e2e-086ddb0aa681" /> <img width="434" alt="image" src="https://github.com/user-attachments/assets/e939f7c4-8083-4974-970d-c9922bba6fb9" />
 
-
-## Automatically others django-pods got added up to handle the huge incoming traffic
-<img width="309" alt="image" src="https://github.com/user-attachments/assets/42206156-6365-492f-8184-74a4dcbf3413" />
+## Automatically others django-pods and nginx-pods got added up to handle the huge incoming traffic
+<img width="309" alt="image" src="https://github.com/user-attachments/assets/42206156-6365-492f-8184-74a4dcbf3413" /> <img width="310" alt="image" src="https://github.com/user-attachments/assets/789e4fab-c77c-4409-a733-ee965dbfc932" />
 
 ## And automically scales down as the load decreases
-<img width="328" alt="image" src="https://github.com/user-attachments/assets/0852bb0f-22cf-42a7-bf63-2ce05ff9144e" />
+<img width="331" alt="image" src="https://github.com/user-attachments/assets/fa82f19b-e43f-4b7d-9b52-9c5aa8a601b6" />
+
 
 
 
