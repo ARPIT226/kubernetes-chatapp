@@ -91,6 +91,7 @@ requests:
 Logs show that Expanding Node Group and 1 more node is needed
 
 Total nodes would be 2->3
+
 <img width="484" alt="image" src="https://github.com/user-attachments/assets/57ab6023-e2ef-4602-9c58-d09dd329f1d1" />
 
 
