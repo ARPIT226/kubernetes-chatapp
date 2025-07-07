@@ -77,4 +77,20 @@ Set the IP and a custom dns in the /etc/hosts which allows us to access the appl
 ## After giving load, the CPU usage increased hence VPA responded with a higher CPU recommendation (25m → 49m).
 <img width="302" alt="image" src="https://github.com/user-attachments/assets/d57a1a7e-541c-46d7-ba0c-26ede5693385" />
 
+## Cluster auto scaling
+Created a test Deployment requesting high resources:
+
+```
+requests:
+  cpu: "1600m"
+  memory: "2.5Gi"
+```
+
+<img width="949" alt="image" src="https://github.com/user-attachments/assets/41de7a79-3813-46bc-9a78-e564f65a1b81" />
+
+Logs show that Expanding Node Group and 1 more node is needed
+
+Total nodes would be 2->3
+<img width="484" alt="image" src="https://github.com/user-attachments/assets/57ab6023-e2ef-4602-9c58-d09dd329f1d1" />
+
 
